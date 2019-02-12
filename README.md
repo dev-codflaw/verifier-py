@@ -1,11 +1,15 @@
 # Official Library for verifier.meetchopra.com
 
 # Installation
-```pip install git+https://github.com/usePopups/verifier-py.git```
+```pip install git+https://github.com/email-verifier/verifier-py.git```
 
 or
 
-```git clone https://github.com/usePopups/verifier-py.git```
+```pip install verifier```
+
+or
+
+```git clone https://github.com/email-verifier/verifier-py.git```
 
 # Usage
 The library exposes 2 methods. `verify` for boolean response making it simple and `verifyRequest` for having the API response in return

@@ -1,5 +1,9 @@
 import setuptools
 
+install_requires = [
+    'requests>=2.21.0',
+]
+
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
@@ -11,7 +15,7 @@ setuptools.setup(
     description="Offical Library for verifier.meetchopra.com",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/email-verifier/verifier-py",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
